@@ -1,9 +1,8 @@
 package com.app.exception;
 
-public class ValidationException extends RuntimeException{
-  private final String message;
+public class ValidationException extends RuntimeException {
 
   public ValidationException(String message) {
-    this.message = message;
+    super(message);
   }
 }

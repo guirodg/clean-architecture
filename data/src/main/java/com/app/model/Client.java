@@ -9,7 +9,7 @@ import javax.persistence.*;
 @Getter
 @Setter
 @Table(name = "Client")
-public class ClientModel {
+public class Client {
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
   private Long id;
